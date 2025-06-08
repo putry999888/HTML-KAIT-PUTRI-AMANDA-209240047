@@ -1,0 +1,269 @@
+/* Reset dasar*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  #d7ccc8;
+    color: #BCAAA4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .header-kecil {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 14px;
+    color: #E9D7C0 ;
+  }
+  .judul-besar {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #E9D7C0;
+  }
+  header {
+    background-color: #6c5337;
+    padding: 60px 20px 20px 20px;
+    text-align: center;
+    color: #777;
+    position: relative;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  nav a {
+    color: #BCAAA4;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    background-color: #6c5337;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  nav a:hover {
+    opacity: 0.8;
+  }
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; 
+  }  
+  .produk-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  .produk {
+    background-color: #8D6E63;
+    border: 1px solid #8D6E63;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 240px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .produk:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  }
+  .produk img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  .produk h3 {
+    color: #6c5337;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+  .deskripsi {
+    font-size: 0.9em;
+    margin-bottom: 8px;
+    color: #777;
+  }
+  .harga {
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: black !important;
+  }
+  .beli-btn {
+background-color: #8D6E63;
+color: white;
+border: none;
+padding: 10px 15px;
+border-radius: 20px;
+cursor: pointer;
+font-weight: bold;
+transition: background-color 0.3s;
+  }
+.beli-btn:hover {
+background-color: #BCAAA4;
+  }
+
+  /* Footer */
+  footer {
+    background-color:  #d7ccc8;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+  }
+
+  .kategori {
+    background-color: #F3E9DB;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    color: #4A4A4A;
+    text-align: center;
+  }
+  
+  .kategori h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #6c5337;
+  }
+  
+  .daftar-kategori {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .daftar-kategori li a {
+    background-color: #6c5337;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .daftar-kategori li a:hover {
+    background-color: #E2B091;
+    color: #fff;
+  }
+  
+.welcome-section {
+    background-color: #8D6E63;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .welcome-text h2 {
+    font-size: 2rem;
+    color: #6d4c41;
+  }
+  .welcome-text p {
+    font-size: 1.1rem;
+    color: #5d4037;
+  }
+
+  .kategori {
+    background-color: #F3E9DB;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    color: #4A4A4A;
+    text-align: center;
+  }
+  
+  .kategori h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #6c5337;
+  }
+  
+  .daftar-kategori {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .daftar-kategori li a {
+    background-color:#5d4037;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .daftar-kategori li a:hover {
+    background-color: #E2B0;
+    color: #fff;
+  }
+  .produk-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    padding: 0 0 20px 0;
+  }  
+  .produk {
+    width: 240px;
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Footer */
+footer {
+    background-color: #d7ccc8;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
+
+  /* Keranjang Ikon */
+  .keranjang-ikon {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+  }
+
+/* Responsif */
+@media (max-width: 768px) {
+    .produk {
+      width: 45%;
+    }
+  }
+  @media (max-width: 480px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    .produk {
+      width: 100%;
+    }
+  }
+ 
